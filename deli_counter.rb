@@ -14,5 +14,11 @@ katz_deli.each_with_index { |name, index| katz_line.push("#{index + 1}. #{name}"
     end
     end
 
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line.}"
+
+end
+
 
   # Write your code here.
