@@ -9,7 +9,7 @@ else
 end
       puts "The line is currently: #{katz_line.join(' ')}"
 
-      
+
     end
 
 
