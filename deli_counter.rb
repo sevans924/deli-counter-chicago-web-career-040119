@@ -9,8 +9,9 @@ def line(katz_deli)
 katz_line = []
 katz_deli.each_with_index { |name, index| katz_line.push("#{index + 1}. #{name}")}
 
-end
       puts "The line is currently: #{katz_line.join(' ')}"
+
+    end
     end
 
 
