@@ -16,7 +16,7 @@ katz_deli.each_with_index { |name, index| katz_line.push("#{index + 1}. #{name}"
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line.}"
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 
 end
 
